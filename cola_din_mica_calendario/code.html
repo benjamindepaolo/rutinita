@@ -1,0 +1,437 @@
+<!DOCTYPE html><html class="dark" lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"><meta content="mobile_tab" name="shell-type"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700&amp;family=Space+Grotesk:wght@600;700&amp;family=Space+Mono:wght@700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-primary-fixed": "#151f00", "outline-variant": "#434933", "on-error-container": "#ffdad6", "surface-tint": "#a6d700", "surface-bright": "#363940", "on-tertiary-fixed": "#410008", "on-error": "#690005", "inverse-primary": "#4e6700", "error-container": "#93000a", "secondary": "#bec6e0", "tertiary": "#ffffff", "secondary-fixed": "#dae2fd", "error": "#ffb4ab", "tertiary-fixed-dim": "#ffb3b2", "on-background": "#e1e2eb", "surface-container-high": "#272a31", "surface-container": "#1d2026", "on-secondary-fixed": "#131b2e", "secondary-fixed-dim": "#bec6e0", "on-tertiary-fixed-variant": "#92001f", "outline": "#8d9479", "on-surface-variant": "#c3caac", "background": "#10131a", "surface-container-low": "#191c22", "on-secondary": "#283044", "on-secondary-container": "#adb4ce", "surface-dim": "#10131a", "secondary-container": "#3f465c", "primary-fixed-dim": "#a6d700", "tertiary-fixed": "#ffdad9", "inverse-on-surface": "#2e3037", "on-tertiary-container": "#ca002e", "inverse-surface": "#e1e2eb", "surface-variant": "#32353c", "primary-fixed": "#bef500", "tertiary-container": "#ffdad9", "surface-container-highest": "#32353c", "on-secondary-fixed-variant": "#3f465c", "primary-container": "#bef500", "primary": "#ffffff", "on-surface": "#e1e2eb", "surface-container-lowest": "#0b0e14", "on-primary-fixed-variant": "#3a4d00", "surface": "#10131a", "on-primary-container": "#536d00", "on-primary": "#273500", "on-tertiary": "#680013" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "gutter-desktop": "1.5rem", "space-sm": "0.75rem", "space-md": "1.25rem", "space-xs": "0.375rem", "space-xl": "3rem", "margin-tablet": "2rem", "margin": "1rem", "space-lg": "2rem", "gutter": "1rem", "margin-desktop": "3rem" }, "fontFamily": { "metric-numeral": [ "Space Mono" ], "label-caps": [ "Hanken Grotesk" ], "label-data": [ "Space Mono" ], "metric-numeral-mobile": [ "Space Mono" ], "body-md": [ "Hanken Grotesk" ], "headline-lg-mobile": [ "Space Grotesk" ], "display-hero-mobile": [ "Space Grotesk" ], "headline-md": [ "Space Grotesk" ], "body-lg": [ "Hanken Grotesk" ], "display-hero": [ "Space Grotesk" ], "headline-sm": [ "Space Grotesk" ], "body-sm": [ "Hanken Grotesk" ], "headline-lg": [ "Space Grotesk" ] }, "fontSize": { "metric-numeral": [ "44px", { "lineHeight": "48px", "letterSpacing": "-0.04em", "fontWeight": "700" } ], "label-caps": [ "11px", { "lineHeight": "14px", "letterSpacing": "0.1em", "fontWeight": "700" } ], "label-data": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "700" } ], "metric-numeral-mobile": [ "34px", { "lineHeight": "38px", "letterSpacing": "-0.04em", "fontWeight": "700" } ], "body-md": [ "15px", { "lineHeight": "22px", "fontWeight": "400" } ], "headline-lg-mobile": [ "26px", { "lineHeight": "32px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "display-hero-mobile": [ "40px", { "lineHeight": "44px", "letterSpacing": "-0.03em", "fontWeight": "700" } ], "headline-md": [ "22px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "body-lg": [ "17px", { "lineHeight": "26px", "fontWeight": "400" } ], "display-hero": [ "56px", { "lineHeight": "60px", "letterSpacing": "-0.03em", "fontWeight": "700" } ], "headline-sm": [ "18px", { "lineHeight": "24px", "fontWeight": "600" } ], "body-sm": [ "13px", { "lineHeight": "18px", "fontWeight": "400" } ], "headline-lg": [ "32px", { "lineHeight": "38px", "letterSpacing": "-0.02em", "fontWeight": "700" } ] } } } };</script><style>@layer base{html,body{width:100vw;margin:0;padding:0;background-color:#10131a;color:#e1e2eb;-webkit-tap-highlight-color:transparent;}body{overscroll-behavior-y:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style></head><body class="bg-surface font-body-md text-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 inset-x-0 z-50 bg-surface/90 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(0,0,0,0.4)]"><div class="h-16 px-gutter flex items-center justify-between"><div class="flex items-center gap-space-xs"><div class="flex items-center gap-1.5 px-2.5 py-1 rounded bg-surface-container-high"><span class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span><span class="font-label-caps text-label-caps uppercase text-primary-fixed">PWA READY</span></div><div class="flex items-center gap-1 px-2.5 py-1 rounded bg-surface-container-high"><span class="material-symbols-outlined text-[14px] text-primary-fixed">bolt</span><span class="font-label-data text-label-data text-on-surface">5D STREAK</span></div></div><h1 class="font-headline-sm text-headline-sm uppercase tracking-tight text-center text-primary-container truncate max-w-[130px]">Rutina / Cola</h1><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></header><main class="flex-1 flex flex-col relative w-full px-gutter pt-16 pb-24 bg-surface"><div class="flex flex-col w-full gap-space-md">
+<!-- PWA Offline Banner -->
+<div class="w-full bg-surface-container-high rounded-xl p-space-sm flex items-center justify-between shadow-sm">
+<div class="flex items-center gap-space-xs min-w-0">
+<div class="w-7 h-7 rounded-full bg-surface-container-highest flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary-fixed text-[18px]">wifi_off</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+<span class="font-label-caps text-label-caps uppercase text-primary-fixed truncate">Modo Offline Activo</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Sincronización local en caché SQLite</span>
+</div>
+</div>
+<div class="px-2 py-1 rounded bg-surface-container-lowest shrink-0">
+<span class="font-label-data text-label-data text-primary-fixed">READY</span>
+</div>
+</div>
+<!-- Reschedule Alert Banner -->
+<div class="w-full bg-surface-container-low rounded-xl p-space-md shadow-md flex flex-col gap-2 relative overflow-hidden transition-all duration-300" id="reschedule-banner">
+<div class="flex items-start gap-2.5">
+<div class="w-6 h-6 rounded bg-error-container flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-error text-[16px]">priority_high</span>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center gap-2">
+<span class="font-label-caps text-label-caps uppercase text-error">Cola Inteligente Reajustada</span>
+<span class="font-label-data text-label-data text-on-surface-variant">• Ayer 20:30</span>
+</div>
+<p class="font-headline-sm text-headline-sm text-on-surface mt-0.5 leading-snug">Día salteado. Tu sesión se movió para hoy.</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">El esquema se ha desplazado en orden estricto. Cero pérdidas de sobrecarga progresiva ni sesiones descartadas.</p>
+</div>
+</div>
+</div>
+<!-- Weekly Frequency Selector -->
+<div class="w-full bg-surface-container rounded-xl p-space-md flex flex-col gap-space-sm shadow-md">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps uppercase tracking-wider text-on-surface-variant">Frecuencia Semanal Dinámica</span>
+<span class="font-label-data text-label-data text-primary-fixed bg-surface-container-high px-2 py-0.5 rounded" id="current-plan-tag">4 DÍAS / SEM</span>
+</div>
+<!-- Segmented Pills -->
+<div class="grid grid-cols-3 gap-1.5 p-1 bg-surface-container-lowest rounded-lg">
+<button class="freq-btn h-11 rounded font-label-data text-label-data uppercase flex flex-col items-center justify-center transition-all bg-surface-container text-on-surface-variant hover:text-on-surface" id="freq-btn-3" onclick="setFrequency(3)">
+<span class="">3 Días</span>
+<span class="font-label-caps text-label-caps opacity-75">Torso / Full</span>
+</button>
+<button class="freq-btn h-11 rounded font-label-data text-label-data uppercase flex flex-col items-center justify-center transition-all bg-primary-container text-on-primary-fixed shadow-sm" id="freq-btn-4" onclick="setFrequency(4)">
+<span class="">4 Días</span>
+<span class="font-label-caps text-label-caps opacity-90">A-B-A-C Split</span>
+</button>
+<button class="freq-btn h-11 rounded font-label-data text-label-data uppercase flex flex-col items-center justify-center transition-all bg-surface-container text-on-surface-variant hover:text-on-surface" id="freq-btn-5" onclick="setFrequency(5)">
+<span class="">5 Días</span>
+<span class="font-label-caps text-label-caps opacity-75">+ Cardio Activo</span>
+</button>
+</div>
+</div>
+<!-- "Sesión de Hoy" Hero Card -->
+<div class="w-full bg-surface-container-high rounded-xl p-space-md shadow-xl flex flex-col gap-space-md relative overflow-hidden">
+<!-- Subtle luminous background glow accent -->
+<div class="absolute -top-12 -right-12 w-36 h-36 rounded-full bg-primary-container/10 blur-2xl pointer-events-none"></div>
+<div class="flex items-start justify-between relative z-10">
+<div class="flex flex-col gap-1 min-w-0">
+<div class="flex items-center gap-2">
+<span class="px-2 py-0.5 rounded bg-primary-container text-on-primary-fixed font-label-caps text-label-caps uppercase tracking-wider">SIGUIENTE EN COLA</span>
+<span class="font-label-data text-label-data text-on-surface-variant">ORDEN #04</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface tracking-tight mt-1" id="today-session-title">Sesión A: Torso Pesado</h2>
+<span class="font-body-sm text-body-sm text-on-surface-variant" id="today-session-sub">Fuerza &amp; Densidad Miofibrilar • 55 min</span>
+</div>
+<div class="w-12 h-12 rounded-xl bg-surface-container-lowest flex items-center justify-center shrink-0 shadow-inner">
+<span class="material-symbols-outlined text-primary-fixed text-[26px]">target</span>
+</div>
+</div>
+<!-- 4 Core Exercises Preview with PR -->
+<div class="flex flex-col gap-1.5 relative z-10">
+<span class="font-label-caps text-label-caps uppercase tracking-wider text-on-surface-variant">Núcleo de Levantamientos &amp; PR Histórico</span>
+<div class="flex flex-col gap-1.5" id="exercise-list">
+<!-- Exercise 1 -->
+<div class="flex items-center justify-between p-2.5 rounded-lg bg-surface-container-low">
+<div class="flex items-center gap-2.5 min-w-0">
+<span class="font-label-data text-label-data text-primary-fixed w-4">01</span>
+<div class="flex flex-col min-w-0">
+<span class="font-body-md text-body-md text-on-surface truncate font-semibold">Press Banca Plano con Barra</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">4 series × 5 reps @ RPE 8.5</span>
+</div>
+</div>
+<div class="text-right shrink-0 pl-2">
+<span class="font-label-caps text-label-caps uppercase text-on-surface-variant block">PR</span>
+<span class="font-label-data text-label-data text-primary-fixed">125.0 kg</span>
+</div>
+</div>
+<!-- Exercise 2 -->
+<div class="flex items-center justify-between p-2.5 rounded-lg bg-surface-container-low">
+<div class="flex items-center gap-2.5 min-w-0">
+<span class="font-label-data text-label-data text-primary-fixed w-4">02</span>
+<div class="flex flex-col min-w-0">
+<span class="font-body-md text-body-md text-on-surface truncate font-semibold">Remo Pendlay con Disco Olímpico</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">4 series × 6 reps @ RPE 8.0</span>
+</div>
+</div>
+<div class="text-right shrink-0 pl-2">
+<span class="font-label-caps text-label-caps uppercase text-on-surface-variant block">PR</span>
+<span class="font-label-data text-label-data text-primary-fixed">102.5 kg</span>
+</div>
+</div>
+<!-- Exercise 3 -->
+<div class="flex items-center justify-between p-2.5 rounded-lg bg-surface-container-low">
+<div class="flex items-center gap-2.5 min-w-0">
+<span class="font-label-data text-label-data text-primary-fixed w-4">03</span>
+<div class="flex flex-col min-w-0">
+<span class="font-body-md text-body-md text-on-surface truncate font-semibold">Press Militar Estricto de Pie</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">3 series × 8 reps @ RPE 8.0</span>
+</div>
+</div>
+<div class="text-right shrink-0 pl-2">
+<span class="font-label-caps text-label-caps uppercase text-on-surface-variant block">PR</span>
+<span class="font-label-data text-label-data text-primary-fixed">72.5 kg</span>
+</div>
+</div>
+<!-- Exercise 4 -->
+<div class="flex items-center justify-between p-2.5 rounded-lg bg-surface-container-low">
+<div class="flex items-center gap-2.5 min-w-0">
+<span class="font-label-data text-label-data text-primary-fixed w-4">04</span>
+<div class="flex flex-col min-w-0">
+<span class="font-body-md text-body-md text-on-surface truncate font-semibold">Fondos Lastrados en Paralelas</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">3 series × 10 reps @ RPE 9.0</span>
+</div>
+</div>
+<div class="text-right shrink-0 pl-2">
+<span class="font-label-caps text-label-caps uppercase text-on-surface-variant block">PR</span>
+<span class="font-label-data text-label-data text-primary-fixed">+40.0 kg</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Gym Ergonomic Primary CTA Button -->
+<button class="w-full min-h-[58px] bg-primary-container text-on-primary-fixed rounded-xl flex items-center justify-center gap-3 shadow-lg active:scale-[0.98] transition-transform" id="main-start-btn" onclick="startWorkout()"><span class="material-symbols-outlined text-[24px]">edit_note</span><span class="font-headline-sm text-headline-sm uppercase tracking-tight">REGISTRAR SESIÓN DE HOY</span></button>
+</div>
+<!-- Visual Queue Timeline -->
+<div class="w-full bg-surface-container rounded-xl p-space-md flex flex-col gap-space-sm shadow-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-fixed text-[20px]">swap_vert</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Cola Secuencial</h3>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-on-surface-variant text-[16px]">touch_app</span>
+<span class="font-label-caps text-label-caps uppercase text-on-surface-variant">Reordenable</span>
+</div>
+</div>
+<!-- Stepper Pipeline Stream -->
+<div class="flex flex-col gap-2 pt-1" id="queue-container">
+<!-- Item: Completed -->
+<div class="flex items-center justify-between p-3 rounded-lg bg-surface-container-low opacity-60">
+<div class="flex items-center gap-3 min-w-0">
+<div class="w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary-fixed text-[18px]">check</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-md text-body-md text-on-surface truncate font-semibold line-through">Sesión C: Full Body 2</span>
+<span class="font-label-data text-label-data text-on-surface-variant">Completada • Hace 2 días</span>
+</div>
+</div>
+<span class="font-label-caps text-label-caps uppercase px-2 py-1 rounded bg-surface-container-high text-on-surface-variant shrink-0">Listo</span>
+</div>
+<!-- Item: Current Active (Hoy) -->
+<div class="flex items-center justify-between p-3 rounded-lg bg-surface-container-highest shadow-md">
+<div class="flex items-center gap-3 min-w-0">
+<div class="w-8 h-8 rounded-full bg-primary-container text-on-primary-fixed flex items-center justify-center font-label-data text-label-data shrink-0">
+            A
+          </div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="font-body-md text-body-md text-on-surface truncate font-bold">Sesión A: Torso Pesado</span>
+<span class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span>
+</div>
+<span class="font-label-data text-label-data text-primary-fixed">En turno actual • Hoy</span>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-label-caps text-label-caps uppercase px-2 py-1 rounded bg-primary-container text-on-primary-fixed shrink-0">HOY</span>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px] cursor-grab">drag_indicator</span>
+</div>
+</div>
+<!-- Item: Next 1 -->
+<div class="flex items-center justify-between p-3 rounded-lg bg-surface-container-low hover:bg-surface-container-high transition-colors">
+<div class="flex items-center gap-3 min-w-0">
+<div class="w-8 h-8 rounded-full bg-surface-container-high text-on-surface-variant flex items-center justify-center font-label-data text-label-data shrink-0">
+            B
+          </div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-md text-body-md text-on-surface truncate font-semibold">Sesión B: Pierna &amp; Cadena Post</span>
+<span class="font-label-data text-label-data text-on-surface-variant">Siguiente sesión estimada</span>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-label-caps text-label-caps uppercase px-2 py-1 rounded bg-surface-container-high text-on-surface-variant shrink-0">En Cola</span>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px] cursor-grab">drag_indicator</span>
+</div>
+</div>
+<!-- Item: Next 2 -->
+<div class="flex items-center justify-between p-3 rounded-lg bg-surface-container-low hover:bg-surface-container-high transition-colors">
+<div class="flex items-center gap-3 min-w-0">
+<div class="w-8 h-8 rounded-full bg-surface-container-high text-on-surface-variant flex items-center justify-center font-label-data text-label-data shrink-0">
+            A
+          </div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-md text-body-md text-on-surface truncate font-semibold">Sesión A: Torso Volumen</span>
+<span class="font-label-data text-label-data text-on-surface-variant">Hipertrofia &amp; Accesorios</span>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-label-caps text-label-caps uppercase px-2 py-1 rounded bg-surface-container-high text-on-surface-variant shrink-0">En Cola</span>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px] cursor-grab">drag_indicator</span>
+</div>
+</div>
+<!-- Item: Next 3 -->
+<div class="flex items-center justify-between p-3 rounded-lg bg-surface-container-low hover:bg-surface-container-high transition-colors">
+<div class="flex items-center gap-3 min-w-0">
+<div class="w-8 h-8 rounded-full bg-surface-container-high text-on-surface-variant flex items-center justify-center font-label-data text-label-data shrink-0">
+            C
+          </div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-md text-body-md text-on-surface truncate font-semibold">Sesión C: Full Body 1</span>
+<span class="font-label-data text-label-data text-on-surface-variant">Tensión Metabólica Final</span>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-label-caps text-label-caps uppercase px-2 py-1 rounded bg-surface-container-high text-on-surface-variant shrink-0">En Cola</span>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px] cursor-grab">drag_indicator</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Quick State Simulation / Debugger Console -->
+<div class="w-full bg-surface-container-lowest rounded-xl p-space-md flex flex-col gap-3 shadow-inner">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-fixed text-[18px]">terminal</span>
+<span class="font-label-caps text-label-caps uppercase text-on-surface-variant">Simulador de Cola y Reajuste</span>
+</div>
+<span class="font-label-data text-label-data text-primary-fixed">DEV/TEST</span>
+</div>
+<div class="grid grid-cols-2 gap-2">
+<button class="min-h-[48px] bg-surface-container-high hover:bg-surface-container-highest text-error rounded-lg px-3 py-2 flex items-center justify-center gap-2 transition-colors active:scale-95" onclick="simulateSkipDay()">
+<span class="material-symbols-outlined text-[18px]">forward_media</span>
+<span class="font-label-data text-label-data uppercase">Simular Salteo</span>
+</button>
+<button class="min-h-[48px] bg-surface-container-high hover:bg-surface-container-highest text-primary-fixed rounded-lg px-3 py-2 flex items-center justify-center gap-2 transition-colors active:scale-95" onclick="simulateCompleteSession()">
+<span class="material-symbols-outlined text-[18px]">task_alt</span>
+<span class="font-label-data text-label-data uppercase">Completar Sesión</span>
+</button>
+</div>
+<!-- Notification feedback toast inline -->
+<div class="h-6 flex items-center justify-center opacity-0 transition-opacity duration-300" id="sim-toast">
+<span class="font-label-data text-label-data text-primary-fixed" id="sim-toast-msg">Cola reorganizada sin pérdidas</span>
+</div>
+</div>
+</div>
+<script>
+  let currentFreq = 4;
+  let queueState = [
+    { id: 'prev', code: 'C', title: 'Sesión C: Full Body 2', sub: 'Completada', status: 'done', ts: 'Hace 2 días' },
+    { id: 'today', code: 'A', title: 'Sesión A: Torso Pesado', sub: 'Fuerza & Densidad Miofibrilar', status: 'today', ts: 'Hoy' },
+    { id: 'q1', code: 'B', title: 'Sesión B: Pierna & Posterior', sub: 'Sentadilla & Peso Muerto', status: 'queued', ts: 'En Cola' },
+    { id: 'q2', code: 'A', title: 'Sesión A: Torso Hipertrofia', sub: 'Tracción & Empuje Medio', status: 'queued', ts: 'En Cola' },
+    { id: 'q3', code: 'C', title: 'Sesión C: Full Body 1', sub: 'Tensión Metabólica', status: 'queued', ts: 'En Cola' }
+  ];
+
+  const plans = {
+    3: [
+      { code: 'A', title: 'Sesión A: Torso Pesado', sub: 'Fuerza & Rango de Potencia' },
+      { code: 'B', title: 'Sesión B: Full Body 1', sub: 'Carga Axial & Isquios' },
+      { code: 'C', title: 'Sesión C: Full Body 2', sub: 'Tensión & Volumen Auxiliar' }
+    ],
+    4: [
+      { code: 'A', title: 'Sesión A: Torso Pesado', sub: 'Fuerza & Densidad Miofibrilar' },
+      { code: 'B', title: 'Sesión B: Pierna & Posterior', sub: 'Sentadilla & Peso Muerto' },
+      { code: 'A', title: 'Sesión A: Torso Hipertrofia', sub: 'Tracción & Empuje Medio' },
+      { code: 'C', title: 'Sesión C: Full Body 1', sub: 'Tensión Metabólica' }
+    ],
+    5: [
+      { code: 'A', title: 'Sesión A: Torso Pesado', sub: 'Fuerza & Densidad Miofibrilar' },
+      { code: 'R', title: 'Descanso Activo / Cardio Z2', sub: 'Recuperación Metabólica & Movilidad' },
+      { code: 'B', title: 'Sesión B: Pierna & Cadena Post', sub: 'Sentadilla & Peso Muerto' },
+      { code: 'A', title: 'Sesión A: Torso Auxiliar', sub: 'Hipertrofia de Aislamiento' },
+      { code: 'C', title: 'Sesión C: Full Body Final', sub: 'Agotamiento Metabólico' }
+    ]
+  };
+
+  function setFrequency(freq) {
+    currentFreq = freq;
+    document.querySelectorAll('.freq-btn').forEach(btn => {
+      btn.className = "freq-btn h-11 rounded font-label-data text-label-data uppercase flex flex-col items-center justify-center transition-all bg-surface-container text-on-surface-variant hover:text-on-surface";
+    });
+    const activeBtn = document.getElementById('freq-btn-' + freq);
+    if (activeBtn) {
+      activeBtn.className = "freq-btn h-11 rounded font-label-data text-label-data uppercase flex flex-col items-center justify-center transition-all bg-primary-container text-on-primary-fixed shadow-sm";
+    }
+
+    const tag = document.getElementById('current-plan-tag');
+    if (tag) tag.textContent = freq + ' DÍAS / SEM';
+
+    // Rebuild queue based on template
+    const template = plans[freq];
+    queueState = [
+      { id: 'prev', code: 'Done', title: 'Sesión Anterior', sub: 'Completada', status: 'done', ts: 'Hace 1 día' },
+      { id: 'today', code: template[0].code, title: template[0].title, sub: template[0].sub, status: 'today', ts: 'Hoy' }
+    ];
+    for (let i = 1; i < template.length; i++) {
+      queueState.push({
+        id: 'q' + i,
+        code: template[i].code,
+        title: template[i].title,
+        sub: template[i].sub,
+        status: 'queued',
+        ts: 'En Cola'
+      });
+    }
+    renderQueue();
+    showToast('Plan de ' + freq + ' días cargado en cola');
+  }
+
+  function renderQueue() {
+    const container = document.getElementById('queue-container');
+    if (!container) return;
+    container.innerHTML = '';
+
+    queueState.forEach(item => {
+      const row = document.createElement('div');
+      if (item.status === 'done') {
+        row.className = "flex items-center justify-between p-3 rounded-lg bg-surface-container-low opacity-60";
+        row.innerHTML = `
+          <div class="flex items-center gap-3 min-w-0">
+            <div class="w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center shrink-0">
+              <span class="material-symbols-outlined text-primary-fixed text-[18px]">check</span>
+            </div>
+            <div class="flex flex-col min-w-0">
+              <span class="font-body-md text-body-md text-on-surface truncate font-semibold line-through">${item.title}</span>
+              <span class="font-label-data text-label-data text-on-surface-variant">${item.sub} • ${item.ts}</span>
+            </div>
+          </div>
+          <span class="font-label-caps text-label-caps uppercase px-2 py-1 rounded bg-surface-container-high text-on-surface-variant shrink-0">Listo</span>
+        `;
+      } else if (item.status === 'today') {
+        row.className = "flex items-center justify-between p-3 rounded-lg bg-surface-container-highest shadow-md";
+        row.innerHTML = `
+          <div class="flex items-center gap-3 min-w-0">
+            <div class="w-8 h-8 rounded-full bg-primary-container text-on-primary-fixed flex items-center justify-center font-label-data text-label-data font-bold shrink-0">
+              ${item.code}
+            </div>
+            <div class="flex flex-col min-w-0">
+              <div class="flex items-center gap-2">
+                <span class="font-body-md text-body-md text-on-surface truncate font-bold">${item.title}</span>
+                <span class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span>
+              </div>
+              <span class="font-label-data text-label-data text-primary-fixed">${item.sub}</span>
+            </div>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="font-label-caps text-label-caps uppercase px-2 py-1 rounded bg-primary-container text-on-primary-fixed shrink-0">HOY</span>
+            <span class="material-symbols-outlined text-on-surface-variant text-[20px] cursor-grab">drag_indicator</span>
+          </div>
+        `;
+        // Sync Hero Card
+        const titleEl = document.getElementById('today-session-title');
+        const subEl = document.getElementById('today-session-sub');
+        if (titleEl) titleEl.textContent = item.title;
+        if (subEl) subEl.textContent = item.sub;
+      } else {
+        row.className = "flex items-center justify-between p-3 rounded-lg bg-surface-container-low hover:bg-surface-container-high transition-colors";
+        row.innerHTML = `
+          <div class="flex items-center gap-3 min-w-0">
+            <div class="w-8 h-8 rounded-full bg-surface-container-high text-on-surface-variant flex items-center justify-center font-label-data text-label-data shrink-0">
+              ${item.code}
+            </div>
+            <div class="flex flex-col min-w-0">
+              <span class="font-body-md text-body-md text-on-surface truncate font-semibold">${item.title}</span>
+              <span class="font-label-data text-label-data text-on-surface-variant">${item.sub}</span>
+            </div>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="font-label-caps text-label-caps uppercase px-2 py-1 rounded bg-surface-container-high text-on-surface-variant shrink-0">En Cola</span>
+            <span class="material-symbols-outlined text-on-surface-variant text-[20px] cursor-grab">drag_indicator</span>
+          </div>
+        `;
+      }
+      container.appendChild(row);
+    });
+  }
+
+  function simulateSkipDay() {
+    const banner = document.getElementById('reschedule-banner');
+    if (banner) {
+      banner.classList.add('bg-surface-container-highest');
+      setTimeout(() => banner.classList.remove('bg-surface-container-highest'), 600);
+    }
+    showToast('Día salteado detectado: Cola desplazada sin saltar sesiones');
+  }
+
+  function simulateCompleteSession() {
+    const todayIndex = queueState.findIndex(q => q.status === 'today');
+    if (todayIndex !== -1 && todayIndex + 1 < queueState.length) {
+      queueState[todayIndex].status = 'done';
+      queueState[todayIndex].ts = 'Hoy (Completada)';
+      queueState[todayIndex + 1].status = 'today';
+      renderQueue();
+      showToast('¡Sesión registrada! Se avanzó el siguiente bloque');
+    } else {
+      showToast('Ciclo completado. Reiniciando cola.');
+      setFrequency(currentFreq);
+    }
+  }
+
+  function startWorkout() {
+    showToast('Iniciando cronómetro y buffer de telemetría...');
+  }
+
+  function showToast(msg) {
+    const toast = document.getElementById('sim-toast');
+    const toastMsg = document.getElementById('sim-toast-msg');
+    if (toast && toastMsg) {
+      toastMsg.textContent = msg;
+      toast.classList.remove('opacity-0');
+      toast.classList.add('opacity-100');
+      clearTimeout(window._toastTimeout);
+      window._toastTimeout = setTimeout(() => {
+        toast.classList.remove('opacity-100');
+        toast.classList.add('opacity-0');
+      }, 2400);
+    }
+  }
+</script></main><nav class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-surface-container-lowest/95 backdrop-blur-xl shadow-[0_-1px_12px_rgba(0,0,0,0.6)]" data-active-classes="text-primary-container font-headline-sm"><div class="grid grid-cols-4 items-center h-20 px-space-xs"><a class="min-h-[56px] min-w-[56px] flex flex-col items-center justify-center gap-1 text-on-surface-variant hover:text-on-surface transition-colors" data-path="rutina-cola" href="#"><span class="material-symbols-outlined text-[24px]">event_upcoming</span><span class="font-label-caps text-label-caps uppercase tracking-wider">Rutina</span></a><a class="min-h-[56px] min-w-[56px] flex flex-col items-center justify-center gap-1 text-on-surface-variant hover:text-on-surface transition-colors" data-path="entrenar" href="#"><span class="material-symbols-outlined text-[26px]">fitness_center</span><span class="font-label-caps text-label-caps uppercase tracking-wider">Entrenar</span></a><a class="min-h-[56px] min-w-[56px] flex flex-col items-center justify-center gap-1 text-on-surface-variant hover:text-on-surface transition-colors" data-path="progreso" href="#"><span class="material-symbols-outlined text-[24px]">monitoring</span><span class="font-label-caps text-label-caps uppercase tracking-wider">Progreso</span></a><a class="min-h-[56px] min-w-[56px] flex flex-col items-center justify-center gap-1 text-on-surface-variant hover:text-on-surface transition-colors" data-path="catalogo" href="#"><span class="material-symbols-outlined text-[24px]">bookmarks</span><span class="font-label-caps text-label-caps uppercase tracking-wider">Catálogo</span></a></div></nav>
+
+</body></html>
